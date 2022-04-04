@@ -41,7 +41,7 @@ if BF then
 		
 			-- New Fighting Styles & etc
 			["Auto Superhuman"] = true,
-			["Auto Superhuman [Full]"] = true,
+			["Auto Superhuman [Full]"] = false,
 			["Auto Death Step"] = false,
 			["Auto Dragon Talon"] = false,
 			["Auto Electric Clow"] = false,
