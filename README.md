@@ -26,33 +26,33 @@ if BF then
 	if getgenv().Setting then else
 		getgenv().Setting = {
 			["Join Team"] = "Pirate", -- "Pirate","Marine"
-			["Auto Farm Level"] = false,
+			["Auto Farm Level"] = true,
 		
 			-- Setting etc
 			["Select Weapon"] = "",
-			["Auto Rejoin"] = false,
+			["Auto Rejoin"] = true,
 		
 			-- Old World
-			["Auto New World"] = false,
+			["Auto New World"] = true,
 		
 			-- New World
 			["Auto Factory"] = false,
-			["Auto third World"] = false,
+			["Auto third World"] = true,
 		
 			-- New Fighting Styles & etc
-			["Auto Superhuman"] = false,
-			["Auto Superhuman [Full]"] = false,
+			["Auto Superhuman"] = true,
+			["Auto Superhuman [Full]"] = true,
 			["Auto Death Step"] = false,
 			["Auto Dragon Talon"] = false,
 			["Auto Electric Clow"] = false,
-			["Auto Buy Legendary Sword"] = false,
+			["Auto Buy Legendary Sword"] = true,
 			["Auto Buy Legendary Sword Hop"] = false,
 			["Auto Buy Enhancement"] = false,
 			["Auto Farm Select Boss Hop"] = false,
 		
 			-- Auto Stats
-			["Melee"] = false,
-			["Defense"] = false,
+			["Melee"] = true,
+			["Defense"] = true,
 			["Sword"] = false,
 			["Gun"] = false,
 			["Demon Fruit"] = false,
@@ -1397,7 +1397,7 @@ if BF then
 				DropdownContentLayout.Parent = Dropdown
 				DropdownContentLayout.SortOrder = Enum.SortOrder.LayoutOrder
 	
-				add.Name = "Coppy HUB"
+				add.Name = "add"
 				add.Parent = NameDropdown
 				add.BackgroundTransparency = 1.000
 				add.Position = UDim2.new(0.925263166, 0, 0.0217391253, 0)
